@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nerko One', cursive;
+  background-color: #add8e6;
+}
+
+.container{
+  width: 60%;
+  margin: auto;
+}
+
+div.title{
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  color: white;
+  text-shadow: 1px 1px #722727;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.row {
+  margin: 12px 0;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 125px;
+  height: 135px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  box-shadow: 2px 2px rgba(155, 30, 30, 0.486);
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  padding-top: 10px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: white;
+}
+
+.card:hover.bike{
+  background-image: url(../img/noun_Bicycle_3134821.png);
+}
+
+.card:hover.baloon{
+  background-image: url(../img/noun_air_balloon_3134741.png);
+}
+
+.card:hover.cruise{
+  background-image: url(../img/noun_Cruise_Ship_3134824.png);
+}
+
+.card:hover.tractor{
+  background-image: url(../img/noun_Tractor_3134797.png);
+}
+
+.card:hover.sub{
+  background-image: url(../img/noun_Submarine_3134738.png);
+}
+
+.card:hover.tram{
+  background-image: url(../img/noun_Tram_3134750.png);
+}
+
+span{
+  display: none;
+}
+
+.card:hover span{
+  display: block;
+  position: absolute;
+  top: 95px;
+  left: 30px;
+  font-size: 18px;
+}
